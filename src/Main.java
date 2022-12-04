@@ -7,8 +7,8 @@ public class Main {
 
         System.out.println("Всего работников в компании – " +employees+" человек");
         employees=employees+94;
-        dayHours=totalHours/employees;
-        System.out.println("Если в компании работает " +employees+" человек, то всего "+dayHours+" часов работы может быть поделено между сотрудниками");
+        totalHours=employees*dayHours;
+        System.out.println("Если в компании работает " +employees+" человек, то всего "+totalHours+" часов работы может быть поделено между сотрудниками");
 
     }
 }
