@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
+        var totalHours= 640;
+        var dayHours= 8;
+        var employees=totalHours/dayHours;
 
-        var boxMen1= 78.2;
-        var boxMen2= 82.7;
 
-        var diffWeight1=boxMen2-boxMen1;
-        System.out.println("Разница в весе, способ №1 " +diffWeight1+" кг");
-        var diffWeight2=boxMen2 % boxMen1;
-        System.out.println("Разница в весе, способ №2 " +diffWeight2+" кг");
-
+        System.out.println("Всего работников в компании – " +employees+" человек");
+        employees=employees+94;
+        dayHours=totalHours/employees;
+        System.out.println("Если в компании работает " +employees+" человек, то всего "+dayHours+" часов работы может быть поделено между сотрудниками");
 
     }
 }
